@@ -2,6 +2,10 @@ const { app, BrowserWindow, ipcMain, safeStorage, Tray, Menu, powerSaveBlocker, 
 const path = require('path');
 const fs = require('fs');
 
+// Silencia o spam do Chromium no terminal (ex.: STUN/WebRTC do jogo que a rede nao resolve).
+// E so log, nao afeta o app. Mantem so erros fatais.
+app.commandLine.appendSwitch('log-level', '3');
+
 // Instancia unica: abrir o app de novo so foca a janela ja aberta.
 if (!app.requestSingleInstanceLock()) app.quit();
 
