@@ -8,4 +8,6 @@ if [ ! -d node_modules ]; then
   echo "Primeira vez: instalando o necessario. Isso pode levar alguns minutos..."
   npm install
 fi
-npm start
+echo "Abrindo o PokeGrid..."
+# 2>/dev/null descarta os logs do Chromium (ex.: STUN/WebRTC) que so poluem o terminal
+npm start 2>/dev/null

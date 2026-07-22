@@ -45,8 +45,7 @@ No Windows, dê dois cliques no arquivo **iniciar.bat** dentro da pasta. Na prim
 No macOS ou Linux, abra o terminal na pasta e rode:
 
 ```bash
-npm install
-npm start
+bash iniciar.sh
 ```
 
 Pronto. Entre ou crie uma conta em cada painel e, em "Treinadores", salve o login. Da próxima vez ele entra sozinho.

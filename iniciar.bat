@@ -12,4 +12,6 @@ if not exist node_modules (
   echo Primeira vez: instalando o necessario. Isso pode levar alguns minutos...
   call npm install
 )
-call npm start
+echo Abrindo o PokeGrid...
+rem 2>nul descarta os logs do Chromium (ex.: STUN/WebRTC) que so poluem o terminal
+call npm start 2>nul
