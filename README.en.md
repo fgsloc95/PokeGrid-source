@@ -52,6 +52,7 @@ That is it. Log in or create an account in each panel and, under "Treinadores" (
 
 ## What it does
 
+- Run 2, 3 or 4 accounts, you choose how many panels to open.
 - Auto login, even when the session expires in the middle of a farm.
 - Eco mode that keeps CPU use down without hurting progress.
 - Hides the chat and the game icon menu to free up screen.

@@ -52,6 +52,7 @@ Pronto. Entre ou crie uma conta em cada painel e, em "Treinadores", salve o logi
 
 ## O que ele faz
 
+- Rode 2, 3 ou 4 contas, você escolhe quantos painéis abrir.
 - Login automático, mesmo quando a sessão expira no meio do farm.
 - Modo Eco que segura o uso de CPU sem atrapalhar o progresso.
 - Esconde o chat e o menu de ícones do jogo pra sobrar tela.
